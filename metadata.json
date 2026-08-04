@@ -1,0 +1,6 @@
+{
+  "name": "Google Merchandise Store - Spider-Man: Brand New Day Edition",
+  "description": "An immersive Google x Spider-Man Brand New Day limited-edition merchandise store featuring a cinematic intro, interactive 3D elements, full shopping flow, gamified loyalty, and AI integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
