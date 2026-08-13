@@ -1,5 +1,11 @@
 import { Product, SpiderQuizQuestion, SpiderCharacter, UserProfile } from "./types";
 
+import spiderRobotImg from "./assets/images/spider_robot_companion_1784213791365.jpg";
+import sneakerImg from "./assets/images/sneaker_collaboration_1784213807380.jpg";
+import hoodieImg from "./assets/images/hoodie_collaboration_1784213823284.jpg";
+import tshirtImg from "./assets/images/tshirt_collaboration_1784213837377.jpg";
+import capImg from "./assets/images/cap_collaboration_1784213856094.jpg";
+
 export const PRODUCTS: Product[] = [
   {
     id: "spider-robot",
@@ -11,9 +17,9 @@ export const PRODUCTS: Product[] = [
     discountPrice: 299.99,
     rating: 4.9,
     reviewsCount: 142,
-    image: "/src/assets/images/spider_robot_companion_1784213791365.jpg",
+    image: spiderRobotImg,
     images: [
-      "/src/assets/images/spider_robot_companion_1784213791365.jpg",
+      spiderRobotImg,
       "https://picsum.photos/seed/spider-robot-2/800/800",
       "https://picsum.photos/seed/spider-robot-3/800/800",
       "https://picsum.photos/seed/spider-robot-4/800/800"
@@ -50,9 +56,9 @@ export const PRODUCTS: Product[] = [
     price: 189.99,
     rating: 4.8,
     reviewsCount: 96,
-    image: "/src/assets/images/sneaker_collaboration_1784213807380.jpg",
+    image: sneakerImg,
     images: [
-      "/src/assets/images/sneaker_collaboration_1784213807380.jpg",
+      sneakerImg,
       "https://picsum.photos/seed/sneaker-2/800/800",
       "https://picsum.photos/seed/sneaker-3/800/800",
       "https://picsum.photos/seed/sneaker-4/800/800"
@@ -88,9 +94,9 @@ export const PRODUCTS: Product[] = [
     discountPrice: 99.99,
     rating: 4.7,
     reviewsCount: 210,
-    image: "/src/assets/images/hoodie_collaboration_1784213823284.jpg",
+    image: hoodieImg,
     images: [
-      "/src/assets/images/hoodie_collaboration_1784213823284.jpg",
+      hoodieImg,
       "https://picsum.photos/seed/hoodie-2/800/800",
       "https://picsum.photos/seed/hoodie-3/800/800"
     ],
@@ -124,9 +130,9 @@ export const PRODUCTS: Product[] = [
     price: 54.99,
     rating: 4.6,
     reviewsCount: 184,
-    image: "/src/assets/images/tshirt_collaboration_1784213837377.jpg",
+    image: tshirtImg,
     images: [
-      "/src/assets/images/tshirt_collaboration_1784213837377.jpg",
+      tshirtImg,
       "https://picsum.photos/seed/tshirt-2/800/800",
       "https://picsum.photos/seed/tshirt-3/800/800"
     ],
@@ -158,9 +164,9 @@ export const PRODUCTS: Product[] = [
     price: 39.99,
     rating: 4.7,
     reviewsCount: 78,
-    image: "/src/assets/images/cap_collaboration_1784213856094.jpg",
+    image: capImg,
     images: [
-      "/src/assets/images/cap_collaboration_1784213856094.jpg",
+      capImg,
       "https://picsum.photos/seed/cap-2/800/800",
       "https://picsum.photos/seed/cap-3/800/800"
     ],

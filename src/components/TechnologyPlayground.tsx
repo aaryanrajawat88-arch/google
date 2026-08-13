@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Terminal, Send, Cpu, Power, Wifi, ShieldAlert } from "lucide-react";
+import spiderRobotImg from "../assets/images/spider_robot_companion_1784213791365.jpg";
 
 export default function TechnologyPlayground() {
   const [messages, setMessages] = useState<{ sender: "user" | "robot"; text: string }[]>([
@@ -92,7 +93,7 @@ export default function TechnologyPlayground() {
             
             {/* Robot prototype generated asset background */}
             <img
-              src="/src/assets/images/spider_robot_companion_1784213791365.jpg"
+              src={spiderRobotImg}
               alt="Spider assistant prototype"
               className="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-screen pointer-events-none"
               referrerPolicy="no-referrer"
